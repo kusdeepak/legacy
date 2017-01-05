@@ -1,0 +1,50 @@
+.titlebar {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+	background-color: @heading-color;
+	margin-bottom: 50px;
+	@media (max-width: @screen-md1) {
+		display: none;
+	}
+	&.blog {
+		background-image: url(@titlebar-blog-bg-url);
+	}
+	&.products {
+		background-image: url(@titlebar-product-list-bg-url);
+	}
+	&.product {
+		height: auto;
+		margin-bottom: 0;
+	}
+	.page-title {
+		font-size: 48px;
+		margin-top: 25px;
+		text-transform: uppercase;
+		color: white;
+	}
+	.category-wrapper {
+		margin-top: 25px;
+		float: right;
+		width: 280px;
+	}
+	.titlebar-actions {
+		float: right;
+		margin-top: 20px;
+		line-height: 1;
+		font-size: 20px;
+		a {
+			margin-left: 10px;
+			img {
+				.lh-transition(.2s);
+				vertical-align: middle;
+			}
+			&:hover {
+				img {
+					.lh-opacity(.9);
+				}
+			}
+		}
+	}
+}

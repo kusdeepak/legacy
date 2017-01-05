@@ -1,0 +1,254 @@
+.products-list {
+	margin-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid @heading-color;
+	.product-inner {
+		border: 1px solid @border-color;
+	}
+}
+.product-item {
+	margin-bottom: 30px;
+	.product-inner {
+		width: 100%;
+		position: relative;
+	}
+	.prod-img {
+		padding-top: 75%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		img {
+			display: none;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+	.prod-info {
+		text-align: center;
+		position: relative;
+		width: 100%;
+		height: 80px;
+	}
+	.prod-name {
+		font-weight: 400;
+		color: @text-color;
+		width: 100%;
+		line-height: 1.4;
+		padding: 0 10px;
+		.vhcenter;
+		&:hover, &:focus {
+			color: @primary-color;
+		}
+	}
+	.prod-compare {
+		text-transform: uppercase;
+		font-size: 14px;
+		background-color: @product-compare-bg-color;
+		padding: 10px 10px 6px;
+		border-top: 1px solid @border-color;
+		.checkbox {
+			margin: 0;
+		}
+		input {
+			margin-top: 2px;
+		}
+		label {
+			font-weight: 700;
+		}
+	}
+}
+
+.product-single {
+	//background-color: @heading-color;
+	//color: white;
+	//padding-bottom: 30px;
+	padding-top: 30px;
+	.prod-img-inner {
+		background-color: white;
+		border: 1px solid @border-color;
+		position: relative;
+		font-size: 0;
+		line-height: 0;
+		img {
+			width: 100%;
+			height: auto;
+		}
+		.popup-enlarge {
+			position: absolute;
+			right: 15px;
+			bottom: 15px;
+			font-size: 20px;
+		}
+	}
+	p {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.prod-img {
+		margin: 35px 0;
+		@media (min-width: @screen-md) {
+			padding-right: 30px;
+		}
+	}
+	.prod-info {
+		margin: 35px 0;
+		@media (min-width: @screen-md) {
+			padding-left: 30px;
+		}
+	}
+	.prod-subtitle {
+		font-size: 18px;
+		// color: white;
+		font-weight: 300;
+		margin-bottom: 0;
+	}
+	.prod-title {
+		font-size: 36px;
+		@media (max-width: @screen-sm1) {
+			font-size: 20px;
+		}
+		font-weight: 600;
+		//color: white;
+		&:after {
+			content: '';
+			border-bottom: 4px solid @primary-color;
+			width: 175px;
+			margin-top: 10px;
+			display: block;
+		}
+	}
+	.prod-descr {
+		font-family: @text-font2, 'sans-serif';
+		p {
+			margin-bottom: 20px;
+		}
+	}
+	hr {
+		border-top-color: @product-single-border-color;
+		margin: 30px 0 35px 0;
+	}
+	.prod-actions {
+		margin: 35px 0 0 0;
+		li {
+			margin-top: 18px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		a{
+			color: #77787b;
+		}
+		img {
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+		i {
+			margin-right: 10px;
+			width: 30px;
+			text-align: center;
+			display: inline-block;
+			font-size: 20px;
+			color: @primary-color;
+		}
+	}
+	.cta-btn {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+.prod-readmore {
+	font-weight: 600;
+	line-height: 20px;
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+	i {
+		line-height: 20px;
+		font-size: 130%;
+	}
+}
+.product-details {
+	padding: 40px 0;
+	p {
+		font-family: @text-font2, 'sans-serif';
+	}
+	.features {
+		@media (min-width: @screen-md) {
+			padding-right: 30px;
+		}
+	}
+	[class^='col-'] {
+		margin: 35px 0;
+	}
+	.healthcare {
+		* {
+			vertical-align: middle;
+		}
+		img {
+			margin-right: 10px;
+		}
+	}
+	.table {
+		font-family: @text-font2, 'sans-serif';
+	}
+}
+
+.product-compare {
+	background-position: center;
+	background-size: cover;
+	background-image: url(@product-single-compare-bg-url);
+	padding: 70px 0 50px 0;
+	.prod-comp-title {
+		margin-bottom: 20px;
+		text-align: center;
+		font-size: 36px;
+		@media (max-width: @screen-sm1) {
+			font-size: 20px;
+		}
+	}
+	.prod-comp-item {
+		margin: 30px 0;
+	}
+	.item-inner {
+		padding: 20px;
+		position: relative;
+		background-color: white;
+	}
+	.prod-comp-img {
+		padding-top: 50%;
+		position: relative;
+		img {
+			.vhcenter;
+			max-width: 100%;
+			max-height: 100%;
+			width: auto;
+			height: 100%;
+		}
+	}
+	.table {
+		font-family: @text-font2, 'sans-serif';
+		margin-bottom: 0;
+	}
+}
+
+.related-products {
+	padding-top: 65px;
+	.rel-prod-title {
+		font-weight: 300;
+		font-size: 36px;
+		@media (max-width: @screen-sm1) {
+			font-size: 20px;
+		}
+		margin-bottom: 50px;
+		text-align: center;
+		text-transform: uppercase;
+		&:after {
+			content: '';
+			display: block;
+			border-bottom: 4px solid @primary-color;
+			margin: 30px auto 0;
+			width: 175px;
+		}
+	}
+}

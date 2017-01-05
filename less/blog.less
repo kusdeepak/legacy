@@ -1,0 +1,151 @@
+.articles-list {
+	padding-top: 40px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid @heading-color;
+
+	.featured-post {
+		padding-bottom: 20px;
+		.post-title {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		.post-image {
+			margin-bottom: 20px;
+		}
+		.post-meta {
+			margin-bottom: 20px;
+		}
+	}
+	@media (max-width: @screen-md1) {
+		.post-title {
+			margin-top: 20px;
+		}
+	}
+}
+.post {
+	padding-bottom: 30px;
+	&:last-child {
+		margin-bottom: 20px;
+	}
+	&:not(:last-child) {
+		margin-bottom: 30px;
+		border-bottom: 1px solid @border-color;
+	}
+	.post-image {
+		position: relative;
+		font-size: 0;
+	}
+	.post-date {
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		color: white;
+		width: 64px;
+		height: 64px;
+		padding: 14px 0 10px;
+		text-align: center;
+		line-height: 1;
+		.lh-border-radius(50%);
+		background-color: @primary-color;
+		opacity: .9;
+		font-weight: 600;
+		.day {
+			font-size: 24px;
+		}
+		.month {
+			font-size: 16px;
+		}
+	}
+	.post-author {
+		float: left;
+		font-size: 18px;
+	}
+	.author-name {
+		font-weight: 700;
+	}
+	.share-icon {
+		float: right;
+		font-size: 20px;
+		line-height: 30px;
+		margin-left: 10px;
+	}
+	.post-meta {
+		.clearfix;
+	}
+	.post-excerpt, .post-content {
+		margin-bottom: 5px;
+	}
+	.post-content, .post-excerpt, .post-meta, .post-tags {
+		font-family: @text-font2, 'sans-serif';
+		a {
+			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	.post-tags {
+		font-size: 13px;
+		line-height: 30px;
+		.tag-mark {
+			font-size: 18px;
+			margin-right: 10px;
+			color: @primary-color;
+		}
+		a {
+			margin-right: 10px;
+		}
+	}
+	img {
+		max-width: 100%;
+	}
+	.alignleft {
+		float: left;
+		margin: 0 30px 15px 0;
+	}
+	.alignright {
+		float: right;
+		margin: 0 0 15px 30px;
+	}
+	.post-title {
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	ul {
+		list-style: none;
+		padding:0;
+		margin:0;
+		&.li-has-padding li {
+			padding-bottom: 15px;
+		}
+	}
+
+	li { 
+		padding-left: 1em; 
+		text-indent: -.75em;
+	}
+
+	li:before {
+		content: "• ";
+		color: @primary-color;
+	}
+	.table {
+		margin-bottom: 40px;
+	}
+}
+.single-post {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	.post-title {
+		font-size: 42px;
+		text-transform: uppercase;
+	}
+	.post-image {
+		margin-bottom: 20px;
+	}
+	.post-subtitle {
+		font-size: 36px;
+		text-transform: uppercase;
+	}
+}

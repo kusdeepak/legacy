@@ -1,0 +1,36 @@
+.breadcrumbs {
+	ul {
+		padding: 20px 0;
+		overflow: hidden;
+	}
+	li {
+		float: left;
+		font-family: @text-font2, 'sans-serif';
+		font-size: 13px;
+		line-height: 1;
+		color: white;
+		&:not(:last-child):after {
+			padding: 0 8px;
+			content: '/';
+		}
+	}
+	a {
+		color: @primary-color;
+		display: inline-block;
+		text-decoration: none;
+		&:after {
+			content: '';
+			display: block;
+			margin-top: 2px;
+			border-top: 1px solid @primary-color;
+		}
+		&:hover {
+			&:after {
+				border-top-color: transparent;
+			}
+		}
+	}
+	span {
+		font-weight: 700;
+	}
+}	
