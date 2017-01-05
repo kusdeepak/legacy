@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'AzoSans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-Italic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: italic;
+  font-weight: 100;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-ThinItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-LightItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-Medium.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-MediumItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-BoldItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-Black.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AzoSans';
+  font-style: italic;
+  font-weight: 900;
+  src: local('AzoSans'), local('AzoSans'), url(AzoSans-BlackItalic.otf) format('opentype');
+}

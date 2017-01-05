@@ -1,0 +1,479 @@
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+#mainform{
+    width:960px;
+    margin:20px auto;
+    padding-top:20px;
+    font-family: 'Fauna One', serif;
+    display:block;
+}
+/*h2{
+    margin-left: 65px;
+    text-shadow:1px 0px 3px gray;}
+h3{
+    font-size:18px;
+    text-align:center;
+    text-shadow:1px 0px 3px gray;
+}*/
+.onclick{ 
+   width:70px;  
+}
+b{
+    font-size:18px;
+    text-shadow:1px 0px 3px gray;
+}
+#popup{
+    padding-top:80px;
+}
+.form{
+    border-radius:2px;
+    padding:20px 30px;
+    box-shadow:0 0 15px;
+    font-size:14px;
+    font-weight:bold;
+    width:350px;
+    margin:20px 250px 0 35px;
+    float:left;
+}
+
+input{
+    width:80%;
+    height:35px !important;
+    margin-top:5px;
+    border:1px solid #999;
+    border-radius:3px;
+    padding:5px;
+}	
+
+input[type=button]{
+    background-color:#123456;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width:49%;
+}
+textarea{
+    width:100%;
+    height:80px;
+    margin-top:5px;
+    border-radius:3px;
+    padding:5px;
+    resize:none;
+}
+
+#contactdiv{ 
+    opacity:0.92; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: block;
+}
+
+#pdfdiv{ 
+    opacity:0.92; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: block;
+}
+#logindiv{
+    opacity:0.92; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+#login,#contact,#pdf{   
+    width:350px;
+    margin:0px;
+    background-color:white;
+    font-family: 'Fauna One', serif;
+    position: relative;
+    border: 5px solid rgb(90, 158, 181);
+}
+.img{
+    float: right;
+    margin-top: -35px;
+    margin-right: -37px;
+}
+#contact{
+    left: 50%;
+    top: 50%;
+    margin-left:-210px;
+    margin-top:-255px;
+}
+
+#pdf{
+    left: 50%;
+    top: 50%;
+    margin-left:-210px;
+    margin-top:-255px;
+}
+
+#login{
+    left: 50%;
+    top: 50%;
+    margin-left:-210px;
+    margin-top:-158px;
+}
+//---------------------Right side advertizement's css-----------------------
+#formget{
+    float:right;
+}
+/*----------------------------------------FORM--------------------------------------*/
+#contactdiv .popup_form
+{
+	border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 30px;
+	width: 475px;
+	left: 44%;
+	top: 60%;
+}
+
+#pdfdiv .popup_form
+{
+	border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 30px;
+	width: 40%;
+	left: 44%;
+	top: 60%;
+}
+
+.popup_form h3
+{
+	text-align:center;
+}
+.popup_form .form_sec
+{
+	clear:both;
+}
+.popup_form .form_sec #cat
+{
+	border:none;
+	
+}
+.popup_form .form_sec input
+{
+	float: right;
+}
+.popup_form .form_sec input#prod
+{
+	border:none;
+}
+.popup_form .form_sec label
+{
+	 clear: both;
+    float: left;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.popup_form .form_sec .from_input
+{
+	width: 60%;	
+}
+.popup_form .form_sec p
+{
+	margin: 0 0 0 40%;
+    padding: 0;
+}
+.popup_form_content
+{
+	margin-top:20px;
+}
+.popup_form .form_sec #send
+{
+	border:none;
+	width:105px;
+	height:24px;
+}
+
+.popup_form .form_sec #sendpdf
+{
+	border:none;
+	width:105px;
+	height:24px;
+}
+
+
+.frm_number
+{
+	float: left;
+    margin-right: 18px;
+}
+.frm_number p
+{
+	background: none repeat scroll 0 0 #000;
+    border-radius: 50%;
+    color: #fff;
+    height: 35px;
+    margin-left: 0;
+    padding: 7px 5px 0 13px;
+    width: 34px;
+	
+}
+.main_form
+{
+	display:inline-block;
+}
+.frm_heading p
+{
+	font-size:12px;
+}
+.frm_heading p span
+{
+	font-weight:normal;
+	margin-left:5px;
+}
+.frm_sec input
+{
+	width:100%;
+	font-style:italic;
+}
+.container1
+{
+	margin-bottom:20px;
+}
+.frm_left
+{
+	clear: both;
+    float: left;
+    margin-right: 40px;
+    width: 51%;
+}
+.frm_right
+{
+	/*float: left;*/
+    display: inline-block;
+}
+.Brochure_heading
+{
+	margin-bottom:10px;
+}
+.Brochure_heading p
+{
+	font-weight:bold;
+}
+#pdfdiv .pdf_frm
+{
+	border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left: 37%;
+    padding: 20px 30px;
+    top: 50%;
+    width:60%;
+}
+.frm_heading
+{
+	margin-bottom:5px;
+}
+.condition p
+{
+	color: #666;
+    font: 10pt Arial,Helvetica,sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 0;
+}
+.submit_pdf
+{
+	margin-left:50px;
+}
+.submit_pdf input
+{
+	border: 0 none;
+    height: 30px;
+    width: 170px;
+}
+.pdf_frm_content
+{
+	clear: both;
+    float: left;
+}
+.request_frm
+{
+	clear:both;
+	float:left;
+
+}
+@media (max-width:1024px) {
+#pdfdiv .pdf_frm {
+    border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left: 28%;
+    padding: 20px 30px;
+    top: 25%;
+    width:85%;
+}
+}
+@media (max-width:980px) {
+#pdfdiv .pdf_frm {
+    border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left: 28%;
+    padding: 20px 30px;
+    top: 25%;
+    width:85%;
+}
+}
+@media (max-width:900px) {
+#pdfdiv .pdf_frm {
+    border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left: 28%;
+    padding: 20px 30px;
+    top: 25%;
+    width:85%;
+}
+}
+
+
+@media (max-width:800px) {
+#pdfdiv .pdf_frm {
+    border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left: 28%;
+    padding: 20px 30px;
+    top: 25%;
+    width: 96%;
+}
+}
+
+
+@media (max-width:768px) {
+#pdfdiv .pdf_frm {
+    border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left: 28%;
+    padding: 20px 30px;
+    top: 25%;
+    width: 96%;
+}
+}
+@media (max-width:480px) {
+
+#pdfdiv .pdf_frm
+{
+	border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left:209px;
+    top:266px;
+    width:99%;
+	overflow:	scroll;
+	height:100%;
+}
+.pdf_frm_content
+{
+	clear: both;
+    float: left;
+	height:auto;
+	overflow-y:scroll;
+	width:100%;
+}
+.request_frm
+{
+	clear:both;
+	float:left;
+	height:auto;
+	overflow-y:scroll;
+	width:100%;
+}
+#contactdiv .popup_form {
+    height: 100%;
+    left: 46%;
+    overflow: scroll;
+    top: 86%;
+    width: 90%;
+}
+.img {
+    float: right;
+    margin-right: -26px;
+    margin-top: -19px;
+}
+}
+
+@media (max-width:320px) {
+
+#pdfdiv .pdf_frm
+{
+	border-radius: 2px;
+    box-shadow: 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    left:209px;
+    top:266px;
+    width:99%;
+	overflow:	scroll;
+	height:100%;
+}
+.pdf_frm_content
+{
+	clear: both;
+    float: left;
+	height:auto;
+	overflow-y:scroll;
+	width:100%;
+}
+
+.request_frm
+{
+	clear:both;
+	float:left;
+	height:auto;
+	overflow-y:scroll;
+	width:100%;
+}
+#contactdiv .popup_form {
+    left:70%;
+    top: 55%;
+    width: 90%;
+	overflow:scroll;
+	height:100%;
+}
+.img {
+    float: right;
+    margin-right: -26px;
+    margin-top: -19px;
+}
+}
+
